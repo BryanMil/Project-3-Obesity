@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Popularity by Song/Attribute/Genre</title>
+
+
+
+
+    <!--Link to CSS stylesheet-->
+    <link rel="stylesheet" type="text/css" href="static/css/style2.css">
+    <!--Link to Google Font-->
+    <link href='https://fonts.googleapis.com/css?family=Kodchasan' rel='stylesheet'>
+    <!-- D3 Import -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+    <div id="top" style="margin-bottom: 50px;">
+        <a href='/map' id="mapButton">Interactive Map</a>
+        <h1 id="pageTitle">Obesity vs Cancer Vs Covid 19 Deaths Vs Food Deserts </h1>
+    </div>
+    <div class="text">
+        <h1>About The Data</h1>
+        <p>This Data sets we used show the percent of obesity in each state. The goal of this exercise is to compare obesity in each state to Cancer numbers and Covid 19 deaths. </p>
+        <h1>Decscription of ths Data used.</h1>
+        <!-- <p>Attributes are defined by Spotify. Attributes included in our dataset are: 
+        <ul>
+            <li>Danceability — Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.</li>
+            <li>Energy — Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale.</li>
+            <li>Loudness — The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Values typically range between -60 and 0 db.</li>
+            <li>Speechiness - Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.</li>
+            <li>Acousticness — A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.</li>
+            <li>Valence — A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).</li>
+            <li>Tempo — The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.</li>
+            <li>Duration — The length of the song.</li>
+        </ul> -->
+    </p>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h1>US Obesity by County</h1>    
+            <div class="center"><img src="static/Images/obesity_by_county.png" alt="US Obesity By County"></div>
+            <p>This chart shows US obesity by county. Probably the most striking thing about this map is that it looks like the South is in trouble. Obesity-related chronic disease is costly to treat, affects worker productivity, and generally reduces quality of life                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </p>
+        </div> 
+        <div class="card">
+            <h1>Cancer Rate </h1>    
+            <div class="center"><img src="static/Images/Cancer_Rate.gif" alt="Cancer_Rate"></div>
+            <p>The CDC was also able to capture the rates of cancer deaths in the US per 100,000 people. "Cancer counts and rates are essential to measuring progress and targeting action toward this major cause of death among Americans.</p>
+        <!-- </div>
+            <div class="card">
+                <h1>Top 10 Songs in Spotify</h1>    
+                <div class="center"><img src="static/Images/cool_fig1.png" alt="Top 10 Songs in Spotify Line Graph"></div>
+                <p>This graph show the top 10 songs in that period. The top song was an Indonesian song Hati Hati di Jalan by singer Tulus. The second place went to Portugese song A Maior Saudade by Henrique Juliano and third place was held by another Portugese song Dengo by Joao Gomes. These songs scored high on the popularity score measured by a combination of number of streams, streams ration, max weeks on charts ratio and rank points. Hati Hati di Jalan scored the most score of 0.673.</p> -->
+
+            <!-- </div>
+            <div class="card">
+                <h1>Top 10 Artists World Wide</h1>    
+                <div class="center"><img src="static/Images/artist_popularity1.png" alt="Bar chart of top 10 artists world wide"></div>
+                <p>This graph shows the top 10 artists based on the maximum weeks on chart. The Korean boy band BTS held the top spot with most weeks on chart while the tenth spot was held by Moroccan-born rapper LFERDA. Another Korean boy band NCT dream was in the eighth spot. Two American artists Taylor Swift and Kanye West held second and seventh spots respectively. The other country with two artist in top 10 was Egypt with Abyusik holding fourth spot and Marwan Moussa at the ninth place.</p>
+            </div>
+            <div class="card">
+                <h1>Artist Genres</h1>    
+                <div class="center"><img src="static/Images/treemaps.png" alt="Tree map of number of artists per genre"></div>
+                <p>This chart shows the top 50 most popular genres from the songs played from 2021-2022. The top genres that were seen include pop, which had the highest number of songs, then trap latino, latin, reggaeton, dance pop, rap, uk pop, Canadian pop, and hip hop.</p> -->
+            <!-- </div> -->
+
+
+
+        </div>
+    </div>
+
+
+
+    <!--Link to Javascript File-->
+    <!-- <script type="text/javascript" src="static/js/logic2.js"></script> -->
+</body>
+</html>
