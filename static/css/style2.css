@@ -33,7 +33,7 @@
     box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
     font: 20px 'Kodchasan', sans-serif;
     font-weight: bold;
-    color: saddlebrown;
+    color: rgb(139, 19, 45);
     background-color: khaki;
     width: 150px;
     text-decoration-line: none;
@@ -45,7 +45,7 @@
     margin: 5px;
     font: 32px 'Kodchasan', sans-serif;
     font-weight: bold;
-    color: saddlebrown;
+    color: rgb(139, 23, 19);
     width: 70%;
 }
 
